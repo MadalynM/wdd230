@@ -1,0 +1,25 @@
+body {
+    font-size: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 1em; 
+    border: 1px solid #bbb; 
+    padding: .5em;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+}
+
+footer {
+    margin: 1em;
+    border: 1px solid #bbb;
+    padding: .5em;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
