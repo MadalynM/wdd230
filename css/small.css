@@ -14,14 +14,18 @@ header {
     border: 1px solid #bbb; 
     padding: .5em;
     background-color: mediumseagreen;
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    align-items: center;
     border-radius: 20px;
     color: white;
 }
 
+h1 {
+    text-align: center;
+}
+
 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
 }
 
@@ -50,6 +54,7 @@ footer {
 }
 
 #lastupdated {
-    color: #FFEBCD;
+    color: #eee;
     grid-column: 1/ 4;
+    text-align: center;
 }
