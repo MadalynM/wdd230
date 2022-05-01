@@ -1,0 +1,64 @@
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    font-family: 'Josefin Sans', Verdana, sans-serif;
+    margin: 1em;
+    padding: .5em;
+    background-color: #DC143C;
+    color: white;
+}
+
+main {
+    margin: 1em;
+    padding: .5em;
+}
+
+div {
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    background-color: #DCDCDC;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Josefin Sans', Verdana, sans-serif;
+    padding: 1em;
+    background-color: #ea5757;
+    color: white;
+    border: 1px solid #bbb;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+img {
+    padding:.5em;
+    
+}
+
+p {
+    padding: .5em;
+}
+
+footer {
+    font-family: 'Josefin Sans', Verdana, sans-serif;
+    margin: 1em;
+    padding: .5em;
+    background-color: #DC143C;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#last-updated {
+    grid-column: 1/ 3;
+}

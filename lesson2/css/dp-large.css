@@ -1,0 +1,18 @@
+@media only screen and (min-width: 60em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 10px;
+        justify-items: center;
+    }
+
+    div {
+        max-width: 310px;
+    }
+
+    #fitts-law {
+        grid-column: 3/ 4;
+    }
+
+}
