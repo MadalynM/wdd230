@@ -1,0 +1,87 @@
+body {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Heebo', Verdana, sans-serif;
+    color: rgb(217, 18, 18);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+header {
+    margin: 1em;
+    padding: .5em;
+    color: white;
+}
+
+.heading {
+    background-color: rgb(217, 18, 18);
+    padding: 1em;
+    margin-bottom: -1em;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    background-color: black;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: white;
+}
+
+main {
+    margin: 1em;
+    padding: .5em;
+}
+
+table, th, td {
+    border: 1px solid;
+    padding: 1em;
+}
+
+.header-clr-sample {
+    background-color: rgb(217, 18, 18);
+    color: white;
+}
+
+.nav-clr-sample {
+    background-color: black;
+    color: white;
+}
+
+.footer-clr-sample {
+    background-color: darkgray;
+    color: rgb(217, 18, 18);
+}
+
+.h1-clr-sample, .h2-clr-sample, .h3-clr-sample {
+    color:rgb(217, 18, 18);
+}
+
+.heading-sample {
+    background-color: rgb(217, 18, 18);
+    padding: 1em;
+    color: white;
+}
+
+footer {
+    margin: 1em;
+    padding: .5em;
+    background-color: darkgray;
+    color: rgb(217, 18, 18);
+    display: flex;
+    justify-content: space-around;
+}
+
