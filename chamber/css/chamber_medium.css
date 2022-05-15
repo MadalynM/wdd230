@@ -1,0 +1,37 @@
+@media only screen and (min-width: 35em) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    #fb-logo {
+        justify-content: flex-end;
+    }
+    
+    #twitter-logo {
+        justify-content: flex-end;
+        width: 60px;
+    }
+
+    #chamber-info {
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    #phone-num {
+        text-align: right;
+    }
+
+    #location {
+        text-align: right;
+    }
+
+    #my-info {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    
+}

@@ -4,8 +4,52 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+body {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif, Tahoma, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 1em;
+    padding: .5em;
+}
+
+#heading {
+    background-color: rgb(217, 18, 18);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 20px;
+}
+
+h2, h3 {
+    font-family: 'Heebo', Verdana, sans-serif;
+    color: rgb(217, 18, 18);
+}
+
+#logo-head {
+    padding: .5em;
+}
+
+#fb-logo {
+    padding: .5em;
+}
+
+#twitter-logo {
+    padding: .5em;
+    width: 60px;
+}
+
 nav {
-    background-color: #eee;
+    background-color: black;
+    float: right;
+    text-align: right;
 }
 
 nav button {
@@ -13,7 +57,7 @@ nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #555;
+    color: rgb(137, 135, 135);
 }
 
 nav ul {
@@ -26,17 +70,17 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
-    border-top: 1px solid rgba(0,0,0,0.5);
+    color: rgb(184, 183, 183);
+    border-top: 1px solid rgba(171, 165, 165, 0.5);
 }
 
 nav ul li.active a {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(167, 167, 167, 0.2);
     color: #fff;
 }
 
 nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(130, 130, 130, 0.3);
 }
 
 nav ul {
@@ -61,4 +105,43 @@ nav ul.open {
 
 #hamburgerBtn.open span:nth-child(2) {
     display: block;
+}
+
+#currentDate {
+    background-color: rgb(202, 201, 201);
+    padding: 1em;
+    margin-top: -.1em;
+}
+
+main {
+    margin: 1em;
+    padding: .5em;
+}
+
+p {
+    padding: .5em;
+}
+
+footer {
+    margin: 1em;
+    padding: .5em;
+    background-color: #a9a9a9;
+    color: rgb(217, 18, 18);
+}
+
+#chamber-info {
+    text-align: center;
+}
+
+#my-info {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(217, 18, 18);
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

@@ -1,12 +1,21 @@
 @media only screen and (min-width: 65rem) {
 
+    h1 {
+        font-size: 40px;
+    }
+
+    nav {
+        background-color: black;
+        float: none;
+        text-align: left;
+    }
+
     nav button {
         display: none;
     }
 
     nav ul#primaryNav {
         display: flex;
-        margin-left: 2vw;
         border-left: 1px solid rgba(0, 0, 0, 0.3);
     }
 
@@ -14,5 +23,23 @@
         border: none;
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         padding: .5rem 1rem;
+    }
+
+    #currentDate {
+        text-align: center;
+    }
+
+    #chamber-info {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+    }
+
+    #my-info {
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
     }
 }
