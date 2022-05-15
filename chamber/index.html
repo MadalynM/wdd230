@@ -4,17 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A website plan for the chamber of commerce project">
-    <title>Madalyn Mounts Website Planning Document</title>
+    <meta name="description" content="A chamber of commerce website for businesses in Grantsville Utah. A project done by Madalyn Mounts for WDD 230: Web Frontend Development at BYU-Idaho.">
+    <title>Grantsville Chamber of Commerce</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
-    <!--<link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/wp-small.css">
-    <link rel="stylesheet" href="css/wp-medium.css">
-    <link rel="stylesheet" href="css/wp-large.css">-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/chamber_small.css">
+    <link rel="stylesheet" href="css/chamber_medium.css">
+    <link rel="stylesheet" href="css/chamber_large.css">
 </head>
 <body>
+    <header>
+        <img src="images/heart.black.png" alt="Black Heart logo with two C's">
+        <h1 id="heading">Grantsville Chamber of Commerce</h1>
+        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook(black).png" alt="Black Facebook logo link"></a>
+        <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter(black).png" alt="Black Twitter logo link"></a>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="currentDate"></div>
+    </header>
 
+    <main>
+        <div>
+            <p>Hero with site name and call to action</p>
+        </div>
+        <div>
+            <p>Event</p>
+        </div>
+        <div>
+            <p>Weather</p>
+        </div>
+        <div>
+            <p>News Release</p>
+        </div>
+        <div>
+            <p>Spotlight 1</p>
+            <p>Spotlight 2</p>
+        </div>
+        <div>
+            <p>Join</p>
+        </div>
+    </main>
+
+    <footer>
+        <img src="images/heart.black.png" alt="Black Heart logo with two C's">
+        <p>429 East Main Street, Grantsville, UT 84029</p>
+        <p>(435) 884-3411</p>
+        <a href="https://www.google.com/maps/place/Grantsville,+UT+84029/@40.5976966,-112.5075269,13z/data=!3m1!4b1!4m5!3m4!1s0x80ad30e06da7fbc3:0x7bd639208a838fb4!8m2!3d40.5999425!4d-112.4643988" target="_blank">
+            <p>Location Map</p></a>
+        <div>
+            <p>&copy; 2022</p>
+            <p>Grantsville Chamber of Commerce</p>
+            <p>Madalyn Mounts</p>
+            <p>WDD 230 Project</p>
+            <span id="lastUpdated"></span>
+        </div>
+    </footer>
+
+    <script src="js/chamber.js"></script>
 </body>
 </html>
