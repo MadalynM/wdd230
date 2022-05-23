@@ -162,6 +162,45 @@ p {
     padding: .5em;
 }
 
+#event {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: .5em;
+    margin: 1em;
+}
+
+#weather {
+    text-align: center;
+    background-color: black;
+    padding: .5em;
+    margin: 1em;
+}
+
+#news {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: .5em;
+    margin: 1em;
+}
+
+#spotlights {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: .5em;
+    margin: 1em;
+}
+
+#join {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: .5em;
+    margin: 1em;
+}
+
 footer {
     margin: 1em;
     padding: .5em;
