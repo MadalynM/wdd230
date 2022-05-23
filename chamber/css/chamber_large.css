@@ -29,6 +29,43 @@
         text-align: center;
     }
 
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 325px 250px 1fr 200px;
+    }
+
+    .hero-div {
+        width: 500px;
+        grid-column: 1/ 5;
+        grid-row: 1/ 2;
+    }
+
+    #event {
+        grid-column: 1/ 4;
+        grid-row: 2/ 3;
+    }
+
+    #weather {
+        grid-column: 4/ 5;
+        grid-row: 2/ 3;
+    }
+
+    #news {
+        grid-column: 2/ 5;
+        grid-row: 3/ 4;
+    }
+
+    #spotlights {
+        grid-column: 1/ 2;
+        grid-row: 3/ 4;
+    }
+
+    #join {
+        grid-column: 1/ 5;
+        grid-row: 4/ 5;
+    }
+
     #chamber-info {
         text-align: left;
         display: flex;

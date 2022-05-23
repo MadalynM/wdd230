@@ -19,8 +19,34 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
     .hero-div {
         width: 500px;
+        grid-column: 1/ 5;
+    }
+
+    #event {
+        grid-column: 1/ 4;
+    }
+
+    #weather {
+        grid-column: 4/ 5;
+    }
+
+    #news {
+        grid-column: 1/ 5;
+    }
+
+    #spotlights {
+        grid-column: 1/ 5;
+    }
+
+    #join {
+        grid-column: 1/ 5;
     }
     
     #hero-img {
