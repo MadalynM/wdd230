@@ -113,6 +113,12 @@ nav ul.open {
     margin-top: -.1em;
 }
 
+#chamberMeeting {
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: .5em;
+}
+
 main {
     margin: 1em;
     padding: .5em;
