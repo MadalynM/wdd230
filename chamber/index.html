@@ -38,7 +38,13 @@
 
     <main>
         <div class="hero-div">
-            <img id="hero-img" src="images/grantsvillesign.png" alt="picture of Grantsville Welcome sign">
+            <picture id="hero-img">
+                <source media="(max-width: 500px)" srcset="images/Inkedwdd230-org-small.jpg">
+                <source media="(max-width: 1050px)" srcset="images/Inkedwdd230-org-medium.jpg">
+                <source media="(min-width: 1051px)" srcset="images/Inkedwdd230-org-large.jpg">
+                <img src="images/Inkedwdd230-org-large.jpg" alt="group of people working together">
+                <!--<img id="hero-img" src="images/grantsvillesign.png" alt="picture of Grantsville Welcome sign">-->
+            </picture>
             <h2 id="hero-title">Welcome to Grantsville!</h2>
             <button type="button" id="hero-button"><a href="#">Join Us!</a></button>
         </div>
