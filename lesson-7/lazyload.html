@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An assignment for practicing the progressive loading of images">
+    <title>Progressive Loading of Images</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+    <main>
+        <h1>Progressive Loading of Images</h1>
+
+        <picture>
+            <img src="images/place-holder.jpg" data-src="images/artwork.png" alt="An illustration of a tower surrounded by leaves">
+        </picture>
+        <picture>
+            <img src="images/place-holder.jpg" data-src="images/building.png" alt="A picture of a building in fog">
+        </picture>
+        <picture>
+            <img src="images/place-holder.jpg" data-src="images/grantsvillesign.png" alt="A picture of the Grantsville Welcome Sign">
+        </picture>
+        <picture>
+            <img src="images/place-holder.jpg" data-src="images/running-clothes.png" alt="A picture of running clothes on a road">
+        </picture>
+        <picture>
+            <img src="images/place-holder.jpg" data-src="images/tools-on-ribbon.png" alt="An illustration of tools on a ribbon">
+        </picture>
+        <picture>
+            <img src="images/place-holder.jpg" data-src="images/two-people.png" alt="An illustration of two people at night">
+        </picture>
+    </main>
+
+    <script src="js/lazyloading.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+picture {
+    margin: 1em;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
