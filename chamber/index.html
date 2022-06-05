@@ -27,7 +27,7 @@
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
                 <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="#">Directory</a></li>
+                <li><a href="discover.html">Discover</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -37,46 +37,50 @@
     </header>
 
     <main>
-        <div class="hero-div">
-            <picture id="hero-img">
-                <source media="(max-width: 500px)" srcset="images/Inkedwdd230-org-small.jpg">
-                <source media="(max-width: 1050px)" srcset="images/Inkedwdd230-org-medium.jpg">
-                <source media="(min-width: 1051px)" srcset="images/Inkedwdd230-org-large.jpg">
-                <img src="images/Inkedwdd230-org-large.jpg" alt="group of people working together">
-                <!--<img id="hero-img" src="images/grantsvillesign.png" alt="picture of Grantsville Welcome sign">-->
-            </picture>
-            <h2 id="hero-title">Welcome to Grantsville!</h2>
-            <button type="button" id="hero-button"><a href="#">Join Us!</a></button>
-        </div>
-        <div id="event">
-            <h2>Grand Opening!</h2>
-            <h3>Virg's Family Resturant</h3>
-            <p>Join us for the grand opening of Virg's Family Resturant, Tuesday at 10 am.</p>
-        </div>
-        <div id="weather">
-            <h2>Weather</h2>
-            <h1><span id="temp">40</span> F</h1>
-            <h3>Mostly Clear</h3>
-            <p>Wind Speed: <span id="speed">4.0</span> m/hr</p>
-            <p>Wind Chill: <span id="chill"></span></p>
-        </div>
-        <div id="news">
-            <h2>News Release</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus feugiat lacus, at varius massa. Maecenas est nibh, feugiat nec nisl sed, placerat volutpat neque. Aenean facilisis, tellus non ultricies ultrices, metus purus suscipit mauris, in aliquam nunc erat eu nisl. Nunc augue dui, varius ultrices scelerisque faucibus, egestas id ligula. Nulla facilisi. Aliquam rutrum augue at justo condimentum semper. Fusce dapibus mollis congue. Vivamus eu leo quis est egestas tristique. Nunc sed mi tortor. Cras lacinia sapien vitae gravida dapibus. Ut quis efficitur tortor, nec dapibus justo. Nullam vestibulum odio urna, id consequat sem iaculis ut. Donec mollis, diam vitae vehicula luctus, nibh leo sodales libero, sit amet cursus ipsum est sed nisi.</p>
-        </div>
-        <div id="spotlights">
-            <h3>Taco Man</h3>
-            <p>"The best Taco Truck in Grantsville!"</p>
-            <p>tacoman@tacotrucks.com</p>
-            <p>+ (999) 999-9999 | Website</p>
-            <h3>American Burger</h3>
-            <p>"American Style Charboiled Burgers"</p>
-            <p>grantsville@americanburger.com</p>
-            <p>+ (999) 999-9999 | Website</p>
-        </div>
-        <div id="join">
-            <button id="join-button" type="button"><a>Join Us!</a></button>
-            <p>Discover how to join and how it benefit your business!</p>
+        <div id="home-content">
+            <div class="hero-div">
+                <picture id="hero-img">
+                    <source media="(max-width: 500px)" srcset="images/grantsvillesign_small.png">
+                    <source media="(min-width: 501px)" srcset="images/grantsvillesign.png">
+                    <!--<source media="(max-width: 500px)" srcset="images/Inkedwdd230-org-small.jpg">-->
+                    <!--<source media="(max-width: 1050px)" srcset="images/Inkedwdd230-org-medium.jpg">-->
+                    <!--<source media="(min-width: 1051px)" srcset="images/Inkedwdd230-org-large.jpg">-->
+                    <!--<img src="images/Inkedwdd230-org-large.jpg" alt="group of people working together">-->
+                    <img src="images/grantsvillesign.png" alt="picture of Grantsville Welcome sign">
+                </picture>
+                <h2 id="hero-title">Welcome to Grantsville!</h2>
+                <button type="button" id="hero-button"><a href="#">Join Us!</a></button>
+            </div>
+            <div id="event">
+                <h2>Grand Opening!</h2>
+                <h3>Virg's Family Resturant</h3>
+                <p>Join us for the grand opening of Virg's Family Resturant, Tuesday at 10 am.</p>
+            </div>
+            <div id="weather">
+                <h2>Weather</h2>
+                <h1><span id="temp">40</span> F</h1>
+                <h3>Mostly Clear</h3>
+                <p>Wind Speed: <span id="speed">4.0</span> m/hr</p>
+                <p>Wind Chill: <span id="chill"></span></p>
+            </div>
+            <div id="news">
+                <h2>News Release</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus feugiat lacus, at varius massa. Maecenas est nibh, feugiat nec nisl sed, placerat volutpat neque. Aenean facilisis, tellus non ultricies ultrices, metus purus suscipit mauris, in aliquam nunc erat eu nisl. Nunc augue dui, varius ultrices scelerisque faucibus, egestas id ligula. Nulla facilisi. Aliquam rutrum augue at justo condimentum semper. Fusce dapibus mollis congue. Vivamus eu leo quis est egestas tristique. Nunc sed mi tortor. Cras lacinia sapien vitae gravida dapibus. Ut quis efficitur tortor, nec dapibus justo. Nullam vestibulum odio urna, id consequat sem iaculis ut. Donec mollis, diam vitae vehicula luctus, nibh leo sodales libero, sit amet cursus ipsum est sed nisi.</p>
+            </div>
+            <div id="spotlights">
+                <h3>Taco Man</h3>
+                <p>"The best Taco Truck in Grantsville!"</p>
+                <p>tacoman@tacotrucks.com</p>
+                <p>+ (999) 999-9999 | Website</p>
+                <h3>American Burger</h3>
+                <p>"American Style Charboiled Burgers"</p>
+                <p>grantsville@americanburger.com</p>
+                <p>+ (999) 999-9999 | Website</p>
+            </div>
+            <div id="join">
+                <button id="join-button" type="button"><a>Join Us!</a></button>
+                <p>Discover how to join and how it benefit your business!</p>
+            </div>
         </div>
     </main>
 
