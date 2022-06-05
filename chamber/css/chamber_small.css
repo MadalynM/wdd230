@@ -153,6 +153,34 @@ main {
     border-radius: 20px;
 }
 
+picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+
+figure img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+
+figure {
+    text-align: center;
+    padding: .5em;
+    margin: 1em;
+}
+
+figcaption {
+    text-align: center;
+}
+
 button a {
     text-decoration: none;
     color: black;
@@ -212,6 +240,24 @@ p {
     padding: .5em;
     background-color: rgb(217, 18, 18);
     border-radius: 20px;
+}
+
+#statistics {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: .5em;
+    margin: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#last-visited {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: .5em;
+    margin: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer {

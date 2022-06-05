@@ -80,4 +80,16 @@
         justify-content: center;
         align-content: center;
     }
+
+    #discover-content {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    #disc-img-5 {
+        grid-column: 2/ 3;
+        grid-row: 4/ 5;
+        align-content: center;
+    }
 }
