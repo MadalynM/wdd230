@@ -5,7 +5,7 @@ let today = Date.now();
 
 let daysMs = today - lastVisit;
 let days = daysMs / 86400000;
-let daysRounded = Math.round(days);
+const daysRounded = Math.round(days);
 
 daysBetweenVisit.textContent = daysRounded;
 
