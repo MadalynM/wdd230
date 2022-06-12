@@ -92,4 +92,17 @@
         grid-row: 4/ 5;
         align-content: center;
     }
+
+    #member-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #np-member {
+        grid-column: 1/ 2;
+    }
+
+    #np-benefits {
+        grid-column: 2/ 3;
+    }
 }

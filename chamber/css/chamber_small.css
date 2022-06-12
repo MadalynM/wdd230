@@ -260,6 +260,66 @@ p {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+form fieldset {
+    margin: 1em 0;
+    border-radius: 20px;
+    padding: .5em 2%;
+}
+
+legend {
+    margin: 1em;
+    color: rgb(217, 18, 18);
+    font-size: 1.25em;
+}
+
+form label.member-info {
+    display: block;
+}
+
+form label.member-info input:required {
+    border-left: red solid 6px;
+}
+
+form label.member-info input:required:valid {
+    border-left: green solid 6px;
+}
+
+label.member-info input {
+    display: block;
+    margin-bottom: 1em;
+    padding: .5em;
+    font-size: 1.25em;
+    width: 100%;
+    max-width: 20em;
+    border-radius: 10px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 1em;
+    padding: .5em;
+    font-size: 1.25em;
+    width: 100%;
+    max-width: 20em;
+    border-radius: 10px;
+}
+
+#position-pattern {
+    margin-top: -1em;
+    margin-left: -.5em;
+}
+
+#submitBtn {
+    background-color: rgb(217, 18, 18);
+    color: white;
+    padding: 1em;
+    width: 100%;
+    max-width: 20em;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
 footer {
     margin: 1em;
     padding: .5em;

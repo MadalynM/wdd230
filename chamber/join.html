@@ -40,21 +40,60 @@
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Member Information</legend>
-                <label>First Name * <input type="text" name="fname" required></label>
-                <label>Last Name * <input type="text" name="lname" required></label>
-                <label>Business Position/Title <input type="text" name="position"></label>
-                <label>Email * <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label>Cell Phone * <input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label>Business Name/Title * <input type="text" name="bname" required></label>
+                <label class="member-info">First Name * <input type="text" name="fname" required></label>
+                <label class="member-info">Last Name * <input type="text" name="lname" required></label>
+                <label class="member-info">Business Position/Title <input type="text" name="position" pattern="[\s-A-Za-z-]{7,}"></label>
+                <p id="position-pattern">(must be seven or more letters, no numbers, and no symbols besides a hyphen)</p>
+                <label class="member-info">Email * <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="member-info">Cell Phone * <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="member-info">Business Name/Title * <input type="text" name="bname" required></label>
             </fieldset>
 
-            <fieldset>
+            <fieldset id="member-grid">
                 <legend>Membership Level Selection</legend>
+                <label id="np-member"><input type="radio" name="membership" value="np"> NP Membership</label>
+                    <div id="np-benefits">
+                        <ul>
+                            <li>For Non-Profit Organizations</li>
+                            <li>Access to Gold Level Benefits</li>
+                            <li>No Fee</li>
+                        </ul>
+                    </div>
+                <label id="bronze-member"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                    <div id="bronze-benefits">
+                        <ul>
+                            <li>Access to Advertising on the Discover Page</li>
+                            <li>Advertising Provided for Events Your Business Plans to Attend</li>
+                            <li>$50.00 a month</li>
+                        </ul>
+                    </div>
+                <label id="silver-member"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                    <div id="silver-benefits">
+                        <ul>
+                            <li>Access to All Bronze Benefits</li>
+                            <li>Event Discounts Provided</li>
+                            <li>$75.00 a month</li>
+                        </ul>
+                    </div>
+                <label id="gold-member"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                    <div id="gold-benefits">
+                        <ul>
+                            <li>Access to All Bronze and Silver Benefits</li>
+                            <li>Access to Advertising on the Home Page Spotlights</li>
+                            <li>Training Provided for Your Business</li>
+                            <li>$125.00 a month</li>
+                        </ul>
+                    </div>
             </fieldset>
 
             <fieldset>
                 <legend>About Your Business</legend>
+                <label>Business Description</label>
+                <textarea name="about" placeholder="Tell us about your business"></textarea>
+                <label><input type="hidden" id="dateAndTime" name="date" value=""></label>
             </fieldset>
+
+            <input type="submit" value="Become A Member" id="submitBtn">
         </form>
     </main>
     <footer>

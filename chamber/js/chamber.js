@@ -29,3 +29,13 @@ let weekDay = day.getDay();
 if (weekDay == 1 || weekDay == 2) {
     document.querySelector("#chamberMeeting").style.display = "block";
 }
+
+//Current Date and Time
+let dateSubmitted = document.querySelector("#dateAndTime");
+
+const submitted = new Date();
+const dateAndTime = new Intl.DateTimeFormat("en-US", { dateStyle: "full", timeStyle: "long" }).format(
+	submitted
+);
+
+dateSubmitted.setAttribute("value", "dateAndTime");
