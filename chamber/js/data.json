@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+            "name": "Donner Reed Museum",
+            "address": "123 S Main St, Grantsville, UT",
+            "phone": "+ (999) 999-9999",
+            "website": "donnerreedmuseum.org",
+            "image": "images/donner-reed.png",
+            "membership": "Non-Profit"
+        },
+        {
+            "name": "Grantsville City Library",
+            "address": "123 S Main St, Grantsville, UT",
+            "phone": "+ (999) 999-9999",
+            "website": "grantsvillecitylibrary.org",
+            "image": "images/library.png",
+            "membership": "Non-Profit"
+        },
+        {
+            "name": "Soelberg's Market",
+            "address": "123 S Main St, Grantsville, UT",
+            "phone": "+ (999) 999-9999",
+            "website": "soeolbergs.com",
+            "image": "images/soelbergs.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Tae Kwon DO",
+            "address": "123 S Main St, Grantsville, UT",
+            "phone": "+ (999) 999-9999",
+            "website": "taekwondo.com",
+            "image": "images/tae-kwon-do.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Taco Man",
+            "address": "123 S Main St, Grantsville, UT",
+            "phone": "+ (999) 999-9999",
+            "website": "tacomantruck.com",
+            "image": "images/taco-man.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "American Burger",
+            "address": "123 S Main St, Grantsville, UT",
+            "phone": "+ (999) 999-9999",
+            "website": "americanburger.com",
+            "image": "images/american-burger.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Beto's Mexican Food",
+            "address": "123 S Main St, Grantsville, UT",
+            "phone": "+ (999) 999-9999",
+            "website": "betosresturant.com",
+            "image": "images/betos.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Virg's Resturant and Diner",
+            "address": "123 S Main St, Grantsville, UT",
+            "phone": "+ (999) 999-9999",
+            "website": "virgsresturant.com",
+            "image": "images/virgs.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Domino's",
+            "address": "123 S Main St, Grantsville, UT",
+            "phone": "+ (999) 999-9999",
+            "website": "dominos.com",
+            "image": "images/dominos.png",
+            "membership": "Gold"
+        }
+    ]
+}
