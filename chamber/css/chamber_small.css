@@ -320,6 +320,78 @@ textarea {
     font-size: 1.5em;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+    background-color: black;
+    color: white;
+    padding: .5em;
+    margin: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid section img {
+    padding-top: 1em;
+}
+
+.list section {
+	/*display: flex;
+	align-items: center;
+    flex-direction: row;
+	justify-content: left;*/
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: .5em;
+    margin: .5em;
+}
+
+.list section:nth-child(even) {
+    background-color: #222222;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section h2 {
+    padding: .5em;
+}
+
+.list section p {
+    padding: .5em;
+}
+
+#grid {
+    padding: 1em;
+    margin: 1em;
+    background-color: rgb(217, 18, 18);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.25em;
+}
+
+#list {
+    padding: 1em;
+    margin: 1em;
+    background-color: rgb(217, 18, 18);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.25em;
+}
+
 footer {
     margin: 1em;
     padding: .5em;

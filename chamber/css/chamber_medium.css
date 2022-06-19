@@ -128,4 +128,11 @@
         grid-column: 2/ 3;
         grid-row: 3/ 4;
     }
+    
+    .list section {
+	    display: flex;
+	    align-items: center;
+        flex-direction: row;
+	    justify-content: left;
+    }
 }
