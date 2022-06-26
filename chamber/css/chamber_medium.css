@@ -76,6 +76,12 @@
         text-align: right;
     }
 
+    #chamber-info {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
     #my-info {
         display: flex;
         flex-wrap: wrap;

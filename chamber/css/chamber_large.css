@@ -32,8 +32,7 @@
     #home-content {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 325px 350px 1fr 200px;
-        /*note that the first row is usually 325px*/
+        grid-template-rows: 325px 400px 1fr 200px;
     }
 
     .hero-div {
@@ -66,6 +65,7 @@
         grid-column: 1/ 5;
         grid-row: 4/ 5;
     }
+
 
     #chamber-info {
         text-align: left;

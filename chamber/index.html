@@ -40,8 +40,8 @@
         <div id="home-content">
             <div class="hero-div">
                 <picture id="hero-img">
-                    <source media="(max-width: 500px)" srcset="images/grantsvillesign_small.png">
-                    <source media="(min-width: 501px)" srcset="images/grantsvillesign.png">
+                    <source media="(max-width: 575px)" srcset="images/grantsvillesign_small.png">
+                    <source media="(min-width: 576px)" srcset="images/grantsvillesign.png">
                     <!--<source media="(max-width: 500px)" srcset="images/Inkedwdd230-org-small.jpg">-->
                     <!--<source media="(max-width: 1050px)" srcset="images/Inkedwdd230-org-medium.jpg">-->
                     <!--<source media="(min-width: 1051px)" srcset="images/Inkedwdd230-org-large.jpg">-->
@@ -58,9 +58,10 @@
             </div>
             <div id="weather">
                 <h2>Weather</h2>
-                <h1><span id="temp">40</span> F</h1>
-                <h3>Mostly Clear</h3>
-                <p>Wind Speed: <span id="speed">4.0</span> m/hr</p>
+                <img id="weather-icon">
+                <h1><span id="temp"></span> F</h1>
+                <h3 id="description"></h3>
+                <p>Wind Speed: <span id="speed"></span> m/hr</p>
                 <p>Wind Chill: <span id="chill"></span></p>
             </div>
             <div id="news">
@@ -91,6 +92,7 @@
             <p id="phone-num">(435) 884-3411</p>
             <a id="location" href="https://www.google.com/maps/place/Grantsville,+UT+84029/@40.5976966,-112.5075269,13z/data=!3m1!4b1!4m5!3m4!1s0x80ad30e06da7fbc3:0x7bd639208a838fb4!8m2!3d40.5999425!4d-112.4643988" target="_blank">
                 <p>Location Map</p></a>
+            <p id="weather-data">Weather Data Provided by <a href="https://openweathermap.org/">OpenWeatherMap</a></p>
         </div>
         <div id="my-info">
             <p>&copy; 2022</p>
