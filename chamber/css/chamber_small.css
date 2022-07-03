@@ -393,6 +393,51 @@ textarea {
     font-size: 1.25em;
 }
 
+#visit-info {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: .5em;
+    margin: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contact-info {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: .5em;
+    margin: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form label.question-info {
+    display: block;
+}
+
+form label.question-info input:required {
+    border-left: red solid 6px;
+}
+
+form label.question-info input:required:valid {
+    border-left: green solid 6px;
+}
+
+label.question-info input {
+    display: block;
+    margin-bottom: 1em;
+    padding: .5em;
+    font-size: 1.25em;
+    width: 100%;
+    max-width: 20em;
+    border-radius: 10px;
+}
+
+.are-you-member {
+    display: block;
+    padding: .5em;
+}
+
 footer {
     margin: 1em;
     padding: .5em;

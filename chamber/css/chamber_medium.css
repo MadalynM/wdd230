@@ -141,4 +141,9 @@
         flex-direction: row;
 	    justify-content: left;
     }
+
+    #contact-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
