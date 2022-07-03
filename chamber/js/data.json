@@ -5,72 +5,90 @@
             "address": "123 S Main St, Grantsville, UT",
             "phone": "+ (999) 999-9999",
             "website": "donnerreedmuseum.org",
+            "email": "donnerreed@grantsville.org",
             "image": "images/donner-reed.png",
-            "membership": "Non-Profit"
+            "membership": "Non-Profit",
+            "tagline": "Come see the history of Grantsville!"
         },
         {
             "name": "Grantsville City Library",
             "address": "123 S Main St, Grantsville, UT",
             "phone": "+ (999) 999-9999",
             "website": "grantsvillecitylibrary.org",
+            "email": "grantsvillecitylibrary@gmail.comS",
             "image": "images/library.png",
-            "membership": "Non-Profit"
+            "membership": "Non-Profit",
+            "tagline": "For all your educational needs"
         },
         {
             "name": "Soelberg's Market",
             "address": "123 S Main St, Grantsville, UT",
             "phone": "+ (999) 999-9999",
-            "website": "soeolbergs.com",
+            "website": "soelbergs.com",
+            "email": "grantsville@soelbergs.org",
             "image": "images/soelbergs.png",
-            "membership": "Silver"
+            "membership": "Silver",
+            "tagline": "For all your grocery needs!"
         },
         {
             "name": "Tae Kwon DO",
             "address": "123 S Main St, Grantsville, UT",
             "phone": "+ (999) 999-9999",
             "website": "taekwondo.com",
+            "email": "taekwondo@gmail.com",
             "image": "images/tae-kwon-do.png",
-            "membership": "Bronze"
+            "membership": "Bronze",
+            "tagline": "You can Tae Kwon DO it!"
         },
         {
             "name": "Taco Man",
             "address": "123 S Main St, Grantsville, UT",
             "phone": "+ (999) 999-9999",
             "website": "tacomantruck.com",
+            "email": "tacoman@tacotrucks.com",
             "image": "images/taco-man.png",
-            "membership": "Gold"
+            "membership": "Gold",
+            "tagline": "The best Taco Truck in Grantsville!"
         },
         {
             "name": "American Burger",
             "address": "123 S Main St, Grantsville, UT",
             "phone": "+ (999) 999-9999",
             "website": "americanburger.com",
+            "email": "grantsville@americanburger.com",
             "image": "images/american-burger.png",
-            "membership": "Gold"
+            "membership": "Gold",
+            "tagline": "American Style Charboiled Burgers"
         },
         {
             "name": "Beto's Mexican Food",
             "address": "123 S Main St, Grantsville, UT",
             "phone": "+ (999) 999-9999",
             "website": "betosresturant.com",
+            "email": "betosgrantsville@gmail.com",
             "image": "images/betos.png",
-            "membership": "Bronze"
+            "membership": "Bronze",
+            "tagline": "The best Mexican food in town!"
         },
         {
             "name": "Virg's Resturant and Diner",
             "address": "123 S Main St, Grantsville, UT",
             "phone": "+ (999) 999-9999",
             "website": "virgsresturant.com",
+            "email": "virgsgrantsville@gmail.com",
             "image": "images/virgs.png",
-            "membership": "Silver"
+            "membership": "Silver",
+            "tagline": "Breakfast food is the best food"
         },
         {
             "name": "Domino's",
             "address": "123 S Main St, Grantsville, UT",
             "phone": "+ (999) 999-9999",
             "website": "dominos.com",
+            "email": "grantsville@dominos.com",
             "image": "images/dominos.png",
-            "membership": "Gold"
+            "membership": "Gold",
+            "tagline": "Pizza and beyond!"
         }
     ]
 }
