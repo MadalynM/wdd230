@@ -11,6 +11,7 @@ body {
     margin: 0 auto;
 }
 
+/*   Header   */
 header {
     margin: 1em;
     padding: .5em;
@@ -46,9 +47,9 @@ h2, h3 {
     width: 60px;
 }
 
+/*   Navigation   */
 nav {
     background-color: black;
-    text-align: right;
 }
 
 nav button {
@@ -118,11 +119,14 @@ nav ul.open {
     padding: .5em;
 }
 
+/*   Main   */
+
 main {
     margin: 1em;
     padding: .5em;
 }
 
+/*   Index/Home   */
 .hero-div {
     margin: 0 auto;
     width: 400px;
@@ -150,6 +154,9 @@ main {
     padding: .5em;
     background-color: rgb(217, 18, 18);
     border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
 picture img[data-src] {
@@ -231,6 +238,7 @@ p {
     background-color: black;
     color: white;
     padding: .5em;
+    padding-top: 1.5em;
     margin: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -239,8 +247,12 @@ p {
     padding: .5em;
     background-color: rgb(217, 18, 18);
     border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
+/*   Discover   */
 #statistics {
     text-align: center;
     background-color: black;
@@ -259,6 +271,7 @@ p {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/*   Join   */
 form fieldset {
     margin: 1em 0;
     border-radius: 20px;
@@ -321,6 +334,7 @@ textarea {
     font-size: 1.5em;
 }
 
+/*   Directory   */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -346,10 +360,6 @@ textarea {
 }
 
 .list section {
-	/*display: flex;
-	align-items: center;
-    flex-direction: row;
-	justify-content: left;*/
     text-align: center;
     background-color: black;
     color: white;
@@ -393,6 +403,7 @@ textarea {
     font-size: 1.25em;
 }
 
+/*   Contact   */
 #visit-info {
     text-align: center;
     background-color: black;
@@ -438,11 +449,11 @@ label.question-info input {
     padding: .5em;
 }
 
+/*   Footer   */
 footer {
     margin: 1em;
     padding: .5em;
     background-color: #a9a9a9;
-    /*color: rgb(217, 18, 18);*/
 }
 
 #chamber-info {

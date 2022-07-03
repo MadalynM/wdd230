@@ -1,5 +1,6 @@
 @media only screen and (min-width: 35em) {
 
+    /*   Header   */
     h1 {
         font-size: 30px;
     }
@@ -24,6 +25,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    /*   Index/Home   */
     #home-content {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -68,6 +70,7 @@
         right: 10px;
     }
 
+    /*   Footer   */
     #phone-num {
         text-align: right;
     }
@@ -88,6 +91,7 @@
         align-content: center;
     }
 
+    /*   Discover   */
     #discover-content {
         display: grid;
         grid-template-columns: 300px 1fr;
@@ -135,6 +139,7 @@
         grid-row: 3/ 4;
     }
     
+    /* Discovery   */
     .list section {
 	    display: flex;
 	    align-items: center;
@@ -142,6 +147,7 @@
 	    justify-content: left;
     }
 
+    /*   Contact   */
     #contact-content {
         display: grid;
         grid-template-columns: 1fr 1fr;

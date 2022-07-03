@@ -1,5 +1,6 @@
 @media only screen and (min-width: 65rem) {
 
+    /*   Header   */
     h1 {
         font-size: 40px;
     }
@@ -29,6 +30,7 @@
         text-align: center;
     }
 
+    /*   Index/Home   */
     #home-content {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -66,7 +68,7 @@
         grid-row: 4/ 5;
     }
 
-
+    /*   Footer   */
     #chamber-info {
         text-align: left;
         display: flex;
@@ -81,6 +83,7 @@
         align-content: center;
     }
 
+    /*   Discover   */
     #discover-content {
         display: grid;
         grid-template-columns: 300px 1fr;
@@ -93,6 +96,7 @@
         align-content: center;
     }
 
+    /*   Join   */
     #member-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;

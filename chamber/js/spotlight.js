@@ -13,8 +13,6 @@ async function getBusinesses() {
 
 getBusinesses();
 
-
-
 function displayBusinesses(data) {
     let correctBusiness = data.businesses.filter(business => business.membership == "Gold" || business.membership == "Non-Profit");
 
