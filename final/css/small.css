@@ -1,0 +1,200 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*------------------------Header----------------------------*/
+header {
+    margin: 1em;
+    padding: .5em;
+}
+
+#heading {
+    background-color: #1e90ff;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+}
+
+#logo-head {
+    padding: .5em;
+}
+
+.social-logo {
+    border-radius: 50px;
+    width: 55px;
+    padding: .5em;
+}
+
+/*----------------------Navigation-------------------------------*/
+nav {
+    background-color: #3cb371;
+    text-align: left;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+nav ul li.active a {
+    background-color: #90ee90;
+    color: white;
+}
+
+nav ul li.active a:hover {
+    background-color: white;
+    color: #3cb371;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn {
+    text-align: right;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+/*---------------------------Footer-----------------------------*/
+footer {
+    background-color: #dcdcdc;
+    color: black;
+    margin: 1em;
+    padding: .5em .5em 0 .5em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer form {
+    padding: .5em;
+    margin: 1em;
+}
+
+form fieldset {
+    margin: 1em 0;
+    border-radius: 20px;
+    padding: .5em 2%;
+    border: none;
+}
+
+legend {
+    margin: 1em;
+    color: #1e90ff;
+    font-size: 1.25em;
+}
+
+form label.question-info {
+    display: block;
+}
+
+form label.question-info input:required {
+    border-left: red solid 6px;
+}
+
+form label.question-info input:required:valid {
+    border-left: green solid 6px;
+}
+
+label.question-info input {
+    display: block;
+    margin: auto auto 1em auto;
+    padding: .5em;
+    font-size: 1.25em;
+    width: 100%;
+    max-width: 20em;
+    border-radius: 10px;
+}
+
+textarea {
+    display: block;
+    margin: auto auto 1em auto;
+    padding: .5em;
+    font-size: 1.25em;
+    width: 100%;
+    max-width: 20em;
+    border-radius: 10px;
+}
+
+#submitBtn {
+    background-color: #1e90ff;
+    color: white;
+    padding: 1em;
+    width: 100%;
+    max-width: 20em;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+#footer-socials {
+    display: flex;
+    justify-content: center;
+}
+
+#updated {
+    background-color: #90ee90;
+    padding: .5em;
+    margin: 1em -.5em 0 -.5em;
+}
