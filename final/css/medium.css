@@ -37,6 +37,55 @@
         background-color: #90ee90;
         color: white;
     }
-    /*-----------------------Footer----------------------------------*/
 
+    /*-----------------------Footer----------------------------------*/
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 150px 150px 1fr 100px;
+    }
+
+    #logo-footer {
+        grid-column: 1/ 2;
+        grid-row: 1/ 2;
+        margin: 0 auto;
+    }
+
+    #contact-info {
+        grid-column: 1/ 2;
+        grid-row: 2/ 3;
+    }
+
+    footer form {
+        grid-column: 2/ 3;
+        grid-row: 1/ 4;
+    }
+
+    #footer-links {
+        grid-column: 1/ 2;
+        grid-row: 3/ 4;
+    }
+
+    #updated {
+        grid-column: 1/ 3;
+        grid-row: 4/ 5;
+        padding-top: 1.5em;
+    }
+    
+    footer legend {
+        font-size: 1em;
+    }
+
+    footer form label.question-info {
+        font-size: .75em;
+    }
+    
+    textarea {
+        font-size: 1em;
+    }
+    
+    #submitBtn {
+        padding: .75em;
+        font-size: 1em;
+    }
 }
