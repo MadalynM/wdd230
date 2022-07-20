@@ -188,10 +188,13 @@ section div {
 }
 
 #temple-summary {
-    text-align: left;
     padding: .5em;
-    margin: 1em;
+    margin: 1.5em;
     background-color: #90ee90;
+}
+
+#temple-summary li {
+    list-style: none;
 }
 
 #temp-sum-home {
