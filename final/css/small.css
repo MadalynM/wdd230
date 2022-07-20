@@ -120,6 +120,27 @@ nav ul.open {
     display: block;
 }
 
+/*-------------------------Home-------------------------------*/
+h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    padding: .5em;
+}
+
+p {
+    padding: .5em;
+}
+
+#temple-summary {
+    text-align: left;
+    padding: .5em;
+    margin: 1em;
+}
+
+#temp-sum-home {
+    float: left; 
+    margin: 1em;
+}
+
 /*---------------------------Footer-----------------------------*/
 footer {
     background-color: #dcdcdc;
@@ -153,6 +174,7 @@ footer legend {
     margin: 1em;
     color: #1e90ff;
     font-size: 1.25em;
+    font-family: 'Playfair Display', serif;
 }
 
 footer form label.question-info {
@@ -197,6 +219,7 @@ textarea {
     border: none;
     border-radius: 10px;
     font-size: 1.25em;
+    font-family: 'Playfair Display', serif;
 }
 
 #footer-socials {
