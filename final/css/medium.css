@@ -1,0 +1,42 @@
+@media only screen and (min-width: 35em) {
+    /*--------------------------Header--------------------------------*/
+    h1 {
+        font-size: 36px;
+    }
+
+    /*------------------------Navigation-------------------------------*/
+    nav {
+        background-color: #3cb371;
+        float: none;
+        text-align: center;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul#primaryNav {
+        display: flex;
+        justify-content: center;
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .5rem 1rem;
+    }
+
+    nav ul li.active a {
+        background-color: white;
+        color: #3cb371;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    nav ul li.active a:hover {
+        background-color: #90ee90;
+        color: white;
+    }
+    /*-----------------------Footer----------------------------------*/
+
+}

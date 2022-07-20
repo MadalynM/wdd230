@@ -1,0 +1,12 @@
+@media only screen and (min-width: 65rem) {
+    /*-------------------Header-----------------------*/
+    h1 {
+        font-size: 48px;
+    }
+
+    .social-logo {
+        border-radius: 50px;
+        width: 75px;
+        padding: .5em;
+    }
+}

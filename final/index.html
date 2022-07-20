@@ -12,14 +12,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
     <header>
         <div id="heading">
-            <img id="logo-head" src="images/Logo.png" alt="Temple Inn & Suites logo">
-            <h1>Temple Inn and Suites</h1>
-            <a href="https://www.facebook.com/" target="_blank"><img class="social-logo" src="images/facebook (1).png" alt="Blue Facebook logo"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img class="social-logo" src="images/instagram (1).png" alt="Blue Instagram logo"></a>
+            <img class="logo" id="logo-head" src="images/Logo.png" alt="Temple Inn & Suites logo">
+            <h1 id="title">Temple Inn and Suites</h1>
+            <div id="head-socials">
+                <a href="https://www.facebook.com/" target="_blank"><img class="social-logo" src="images/facebook (1).png" alt="Blue Facebook logo"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="social-logo" src="images/instagram (1).png" alt="Blue Instagram logo"></a>
+            </div>
         </div>
         <nav>
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
@@ -37,7 +41,7 @@
     </main>
 
     <footer>
-        <img src="images/Logo.png" alt="Temple Inn & Suites logo">
+        <img class="logo" id="logo-footer" src="images/Logo.png" alt="Temple Inn & Suites logo">
         <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
         <p>(999) 999-9999</p>
         <p id="weather-data">Weather Data Provided by <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></p>

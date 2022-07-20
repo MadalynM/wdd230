@@ -30,8 +30,18 @@ h1 {
     font-family: 'Playfair Display', serif;
 }
 
+.logo {
+    padding: .5em;
+    margin: .5em;
+    background-color: #90ee90;
+    border-radius: 60px;
+}
+
 #logo-head {
     padding: .5em;
+    margin: .5em;
+    background-color: #90ee90;
+    border-radius: 60px;
 }
 
 .social-logo {
@@ -132,32 +142,33 @@ footer form {
     margin: 1em;
 }
 
-form fieldset {
-    margin: 1em 0;
+footer form fieldset {
+    margin: 1em;
     border-radius: 20px;
-    padding: .5em 2%;
+    padding: .5em;
     border: none;
 }
 
-legend {
+footer legend {
     margin: 1em;
     color: #1e90ff;
     font-size: 1.25em;
 }
 
-form label.question-info {
+footer form label.question-info {
     display: block;
+    color: #1e90ff;
 }
 
-form label.question-info input:required {
+footer form label.question-info input:required {
     border-left: red solid 6px;
 }
 
-form label.question-info input:required:valid {
+footer form label.question-info input:required:valid {
     border-left: green solid 6px;
 }
 
-label.question-info input {
+footer label.question-info input {
     display: block;
     margin: auto auto 1em auto;
     padding: .5em;
@@ -185,7 +196,7 @@ textarea {
     max-width: 20em;
     border: none;
     border-radius: 10px;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 #footer-socials {
