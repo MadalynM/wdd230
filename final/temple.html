@@ -11,10 +11,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
     <header>
-
+        <div id="heading">
+            <img class="logo" id="logo-head" src="images/Logo.png" alt="Temple Inn & Suites logo">
+            <h1 id="title">Temple Inn and Suites</h1>
+            <div id="head-socials">
+                <a href="https://www.facebook.com/" target="_blank"><img class="social-logo" src="images/facebook (1).png" alt="Blue Facebook logo"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="social-logo" src="images/instagram (1).png" alt="Blue Instagram logo"></a>
+            </div>
+        </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="temple.html">Temples</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -22,8 +41,41 @@
     </main>
 
     <footer>
+        <img class="logo" id="logo-footer" src="images/Logo.png" alt="Temple Inn & Suites logo">
+        <div id="contact-info">
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+            <p>(999) 999-9999</p>
+        </div>
         
+        <form method="get" action="footer-thank-you.html">
+            <fieldset>
+                <legend>Have a question? Contact Us!</legend>
+                <label class="question-info">First Name * <input type="text" name="fname" required></label>
+                <label class="question-info">Last Name * <input type="text" name="lname" required></label>
+                <label class="question-info">Email * <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="question-info">Cell Phone  <input type="tel" name="phone" placeholder="1235551234"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Question/Concern</legend>
+                <textarea name="about" placeholder="What questions do you have for us?"></textarea>
+            </fieldset>
+
+            <input type="submit" value="Send Question/Concern" id="submitBtn">
+        </form>
+
+        <div id="footer-links">
+            <p id="weather-data">Weather Data Provided by <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></p>
+            <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318" target="_blank">Location Map</a>
+            <div id="footer-socials">
+                <a href="https://www.facebook.com/" target="_blank"><img class="social-logo" src="images/facebook (1).png" alt="Blue Facebook logo"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="social-logo" src="images/instagram (1).png" alt="Blue Instagram logo"></a>
+            </div>
+        </div>
+        <p id="updated">Last Updated: <span id="lastUpdated"></span></p>
     </footer>
 
+    <script src="js/lastupdated.js"></script>
+    <script src="js/hamburgerbutton.js"></script>
 </body>
 </html>
