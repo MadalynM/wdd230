@@ -14,7 +14,7 @@
         display: grid;
         place-items: center;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 300px 450px 1fr;
+        grid-template-rows: 300px 375px 1fr;
     }
 
     #home-img {
