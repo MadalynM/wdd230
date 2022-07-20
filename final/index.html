@@ -38,11 +38,16 @@
 
     <main>
         <div id="home-img">
-            <img src="images/salt-lake-temple-large.png" alt="The Salt Lake Temple in front of a body of water">
+            <picture>
+                <source media="(max-width: 559px)" srcset="images/salt-lake-temple-small.png">
+                <source media="(min-width: 560px)" srcset="images/salt-lake-temple-large.png">
+                <img src="images/placeholder.png" data-src="images/salt-lake-temple-small.png" alt="The Salt Lake Temple in front of a body of water">
+            </picture>
         </div>
 
         <div id="home-reservation">
             <a href="reservation.html">Make a Reservation!</a>
+            <p>Know what you're looking for? Reserve a room now!</p>
         </div>
 
         <div id="home-contact">
@@ -54,8 +59,9 @@
             <p>Friday - Saturday: 4:00 AM - 10:00 PM</p>
         </div>
 
-        <div id="home-weather">
-            <div id="today-weather">
+        <section id="home-weather">
+
+            <div id="current-weather">
                 <h2>Today's Weather</h2>
                 <img id="weather-icon">
                 <h2><span id="temp"></span> F</h2>
@@ -70,20 +76,21 @@
                 <p id="second-desc"></p>
             </div>
 
-            <div id="day-two-weather">
+            <div id="second-weather">
                 <h2>Day 2</h2>
                 <img id="third-weather-icon">
                 <h2><span id=third-temp></span> F</h2>
                 <p id="third-desc"></p>
             </div>
 
-            <div id="day-three-weather">
+            <div id="third-weather">
                 <h2>Day 3</h2>
                 <img id="fourth-weather-icon">
                 <h2><span id=fourth-temp></span> F</h2>
                 <p id="fourth-desc"></p>
             </div>
-        </div>
+
+        </section>
         
         <div id="temple-summary">
             <img id="temp-sum-home" src="images/boise-temple.png" alt="The Boise Idaho temple">
@@ -177,5 +184,6 @@
     <script src="js/lastupdated.js"></script>
     <script src="js/hamburgerbutton.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/lazyloading.js"></script>
 </body>
 </html>

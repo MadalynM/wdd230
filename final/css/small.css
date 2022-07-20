@@ -130,14 +130,71 @@ p {
     padding: .5em;
 }
 
+#home-reservation {
+    background-color: #90ee90;
+    padding: .5em;
+    padding-top: 1.5em;
+    margin: 1em;
+}
+
+#home-reservation a {
+    background-color: #1e90ff;
+    font-family: 'Playfair Display', serif;
+    padding: 1em;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin: 1em;
+}
+
+#home-contact {
+    background-color: #90ee90;
+    margin: 1em;
+    padding: .5em;
+}
+
+section {
+    background-color: #90ee90;
+    margin: 1em;
+    padding: .5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+section div {
+    border: 1px solid #3cb371;
+}
+
+#current-weather {
+    grid-column: 1/ 4;
+    grid-row: 1/ 2;
+}
+
+#tomorrow-weather {
+    grid-column: 1/ 2;
+    grid-row: 2/ 3;
+}
+
+#second-weather {
+    grid-column: 2/ 3;
+    grid-row: 2/ 3;
+}
+
+#third-weather {
+    grid-column: 3/ 4;
+    grid-row: 2/ 3;
+}
+
 #temple-summary {
     text-align: left;
     padding: .5em;
     margin: 1em;
+    background-color: #90ee90;
 }
 
 #temp-sum-home {
-    float: left; 
     margin: 1em;
 }
 
