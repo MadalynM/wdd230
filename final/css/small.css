@@ -230,6 +230,50 @@ section {
 }
 
 /*------------------------------------Reservation----------------------------*/
+#reservation {
+    max-width: 700px;
+}
+
+form label.reservation-info, form label.room-info {
+    display: block;
+    color: #1e90ff;
+}
+
+form label.reservation-info input:required, form label.room-info input:required {
+    border-left: red solid 6px;
+}
+
+form label.reservation-info input:required:valid, form label.room-info input:required:valid {
+    border-left: green solid 6px;
+}
+
+label.reservation-info input, label.room-info input {
+    display: block;
+    margin: auto auto 1em auto;
+    padding: .5em;
+    font-size: 1.25em;
+    width: 100%;
+    max-width: 20em;
+    border-radius: 10px;
+}
+
+label.list-info input {
+    display: block;
+}
+
+form div {
+    color: #1e90ff;
+    padding: .5em;
+}
+
+#location-div, #room-div {
+    color: black;
+}
+
+#location-div {
+    padding-bottom: 1em;
+    padding: 1em;
+}
 
 /*--------------------------------Services---------------------------------*/
 figure {
