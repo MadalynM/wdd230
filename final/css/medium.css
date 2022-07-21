@@ -35,6 +35,10 @@
         background-color: #90ee90;
         color: white;
     }
+
+    nav ul li a:hover {
+        border-radius: 10px 10px 0 0;
+    }
     /*---------------------------Home------------------------------------*/
     #home-content {
         display: grid;
