@@ -208,27 +208,6 @@ section {
     padding: 1.5em;
 }
 
-.show {
-    display: block;
-}
-
-.hide {
-    display: none;
-}
-
-.show img {
-    display: block;
-}
-
-.hide img {
-    display: none;
-}
-
-#likeButton, #likedButton{
-    width: 30px;
-    border-radius: 10px;
-}
-
 /*------------------------------------Reservation----------------------------*/
 #reservation {
     max-width: 700px;
@@ -436,7 +415,7 @@ textarea {
     border-radius: 10px;
 }
 
-#submitBtn {
+.submitBtn {
     background-color: #1e90ff;
     color: white;
     padding: 1em;

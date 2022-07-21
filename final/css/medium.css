@@ -89,10 +89,6 @@
         margin: 1em;
     }
 
-    .cards section {
-        padding-bottom: 4em;
-    }
-
     /*-------------------------Services------------------------------------*/
     #services-content {
         display: grid;
@@ -167,15 +163,10 @@
         grid-row: 4/ 5;
     }
 
-    /*------------------------------Missionary-----------------------*/
     #reception-content div {
         background-color: #90ee90;
         margin: 1em;
         padding: .5em;
-    }
-    
-    #reception-one {
-        background-color: white;
     }
     
     /*------------------------Missionary----------------------------*/
@@ -193,7 +184,7 @@
         font-size: 1.25em;
     }
     
-    #submitBtn {
+    .submitBtn {
         padding: 1em;
         font-size: 1.25em;
         margin-bottom: 1em;
@@ -245,7 +236,7 @@
         font-size: 1em;
     }
     
-    footer #submitBtn {
+    footer .submitBtn {
         padding: .75em;
         font-size: 1em;
     }
