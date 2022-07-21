@@ -37,7 +37,45 @@
     </header>
 
     <main>
+        <h2>Full-Time Missionary Suites</h2>
+        <div id="missionary-content">
+            <div id="room-one">
+                <img src="images/placeholder-250.png" data-src="images/room-one.png" alt="A hotel suite with a kitchenette">
+                <p>Full-Time Missionaries can choose from a variety of suites</p>
+            </div>
 
+            <div id="room-two">
+                <img src="images/placeholder-250.png" data-src="images/room-two.png" alt="A hotel suite with a kitchenette">
+                <p>Each suite has a kitchenette to help accomodate for long-term stays</p>
+            </div>
+
+            <div id="room-three">
+                <img src="images/placeholder-250.png" data-src="images/room-three.png" alt="A hotel suite with a kitchenette">
+                <p>Complete with fridges, ovens, and cooking utencils</p>
+            </div>
+
+            <div id="room-four">
+                <img src="images/placeholder-250.png" data-src="images/room-four.png" alt="A hotel suite with a kitchenette">
+                <p>Full-time temple missionaries are also provided with free house-cleaning optional each day</p>
+            </div>
+        </div>
+
+        <form method="get" action="missionary-thank-you.html">
+            <fieldset>
+                <legend>Contact Us For More Information!</legend>
+                <label class="question-info">First Name * <input type="text" name="fname" required></label>
+                <label class="question-info">Last Name * <input type="text" name="lname" required></label>
+                <label class="question-info">Email * <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="question-info">Cell Phone  <input type="tel" name="phone" placeholder="1235551234"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Question/Concern</legend>
+                <textarea name="about" placeholder="What would you like to know about our suites?"></textarea>
+            </fieldset>
+
+            <input type="submit" value="Send Question/Concern" id="submitBtn">
+        </form>
     </main>
 
     <footer>

@@ -167,6 +167,38 @@
         grid-row: 4/ 5;
     }
 
+    /*------------------------------Missionary-----------------------*/
+    #reception-content div {
+        background-color: #90ee90;
+        margin: 1em;
+        padding: .5em;
+    }
+    
+    #reception-one {
+        background-color: white;
+    }
+    
+    /*------------------------Missionary----------------------------*/
+    #missionary-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    form {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    textarea {
+        font-size: 1.25em;
+    }
+    
+    #submitBtn {
+        padding: 1em;
+        font-size: 1.25em;
+        margin-bottom: 1em;
+    }
+
     /*-----------------------Footer----------------------------------*/
     footer {
         display: grid;
@@ -209,11 +241,11 @@
         font-size: .75em;
     }
     
-    textarea {
+    footer textarea {
         font-size: 1em;
     }
     
-    #submitBtn {
+    footer #submitBtn {
         padding: .75em;
         font-size: 1em;
     }

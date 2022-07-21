@@ -270,6 +270,59 @@ figcaption a:hover {
     background-color: white;
 }
 
+/*------------------------Missionary----------------------------*/
+#missionary-content div {
+    background-color: #90ee90;
+    margin: 1em;
+    padding: .5em;
+    padding-top: 1.5em;
+}
+
+form {
+    background-color: #dcdcdc;
+    border-radius: 20px;
+    padding: .5em;
+    margin: 1em;
+}
+
+form fieldset {
+    margin: 1em;
+    border-radius: 20px;
+    padding: .5em;
+    border: none;
+}
+
+legend {
+    margin: 1em;
+    color: #1e90ff;
+    font-size: 1.25em;
+    font-family: 'Playfair Display', serif;
+}
+
+form label.question-info {
+    display: block;
+    color: #1e90ff;
+
+}
+
+form label.question-info input:required {
+    border-left: red solid 6px;
+}
+
+form label.question-info input:required:valid {
+    border-left: green solid 6px;
+}
+
+label.question-info input {
+    display: block;
+    margin: auto auto 1em auto;
+    padding: .5em;
+    font-size: 1.25em;
+    width: 100%;
+    max-width: 20em;
+    border-radius: 10px;
+}
+
 /*---------------------------Footer-----------------------------*/
 footer {
     background-color: #dcdcdc;
