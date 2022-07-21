@@ -42,7 +42,7 @@
         grid-row: 3/ 4;
     }
 
-    section {
+    #home-weather {
         display: grid;
         grid-template-columns: 500px 1fr 1fr 1fr;
         grid-template-rows: 1fr;
@@ -70,6 +70,21 @@
 
     #temple-summary {
         max-width: 1000px;
+    }
+
+    /*------------------Temples--------------------------------*/
+    .cards {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cards img {
+        float: none;
+    }
+
+    .cards section {
+        padding-bottom: .5em;
     }
 
     /*---------------------Footer---------------------------*/

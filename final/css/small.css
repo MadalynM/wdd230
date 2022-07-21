@@ -154,7 +154,7 @@ p {
     padding: .5em;
 }
 
-section {
+#home-weather {
     background-color: #dcdcdc;
     margin: 1em;
     padding: .5em;
@@ -163,7 +163,7 @@ section {
     grid-template-rows: 1fr 1fr;
 }
 
-section div {
+#home-weather div {
     border: 1px solid #3cb371;
 }
 
@@ -193,12 +193,40 @@ section div {
     background-color: #90ee90;
 }
 
-#temple-summary li {
+li {
     list-style: none;
 }
 
 #temp-sum-home {
     margin: 1em;
+}
+
+/*-----------------------------Temples------------------------------*/
+section {
+    background-color: #dcdcdc;
+    margin: 1.5em;
+    padding: 1.5em;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.show img {
+    display: block;
+}
+
+.hide img {
+    display: none;
+}
+
+#likeButton, #likedButton{
+    width: 30px;
+    border-radius: 10px;
 }
 
 /*---------------------------Footer-----------------------------*/

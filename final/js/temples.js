@@ -33,6 +33,8 @@ function displayTemples(data) {
         let tempSessions = document.createElement('p');
         let closedTitle = document.createElement('h3');
         let tempClosed = document.createElement('ul');
+        let likeBtn = document.createElement('img');
+        let likedBtn = document.createElement('img');
 
         h2.textContent = `${temple.name}`;
         tempAddress.textContent = `${temple.address}`;
@@ -74,6 +76,21 @@ function displayTemples(data) {
             tempClosed.appendChild(listItem);
         }
 
+        //likeBtn.innerHTML = `<img class="show" src=images/like-black.png alt="Black like button">`;
+        //likeBtn.setAttribute('type', `image`);
+        //likeBtn.setAttribute('name', `like`);
+        likeBtn.setAttribute('src', `images/like-black.png`);
+        likeBtn.setAttribute('alt', `Black Like Button`);
+        likeBtn.setAttribute('id', `likeButton`);
+        likeBtn.classList.add('show');
+        //likedBtn.innerHTML = `<img class="hide" src=images/like-blue.png alt="Blue liked button">`;
+        //likedBtn.setAttribute('type', `image`);
+        //likedBtn.setAttribute('name', `like`);
+        likedBtn.setAttribute('src', `images/like-blue.png`);
+        likedBtn.setAttribute('alt', `Blue Liked Button`);
+        likedBtn.setAttribute('id', `likedButton`);
+        likedBtn.classList.add('hide');
+
         tempImage.setAttribute('src', temple.img);
         tempImage.setAttribute('alt', `Image of ${temple.name}`);
         tempImage.setAttribute('loading', 'lazy');
@@ -95,8 +112,11 @@ function displayTemples(data) {
         card.appendChild(tempSessions);
         card.appendChild(closedTitle);
         card.appendChild(tempClosed);
+        card.appendChild(likeBtn);
+        card.appendChild(likedBtn);
         
         document.querySelector('div.cards').appendChild(card);
+
     });
     
 }
