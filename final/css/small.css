@@ -242,6 +242,7 @@ figcaption a {
     text-decoration: none;
     font-family: 'Playfair Display', serif;
     font-size: 1.5em;
+    color: #1e90ff;
 }
 
 figcaption a:hover {
@@ -256,6 +257,17 @@ figcaption a:hover {
 
 #playroom, #pool {
     margin: 1em;
+}
+
+/*------------------------Reception-----------------------------*/
+#reception-content div {
+    background-color: #90ee90;
+    margin: 1em;
+    padding: .5em;
+}
+
+#reception-one {
+    background-color: white;
 }
 
 /*---------------------------Footer-----------------------------*/
