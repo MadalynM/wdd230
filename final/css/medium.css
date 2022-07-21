@@ -93,6 +93,36 @@
         padding-bottom: 4em;
     }
 
+    /*-------------------------Services------------------------------------*/
+    #services-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 275px 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    #services-list {
+        grid-column: 2/ 3;
+        grid-row: 2/ 4;
+    }
+    
+    #amenities-list {
+        grid-column: 1/ 2;
+        grid-row: 3/ 5;
+    }
+    
+    #playroom {
+        grid-column: 2/ 3;
+        grid-row: 4/ 5;
+        margin: 0 auto;
+    }
+
+    #pool {
+        grid-column: 1/ 2;
+        grid-row: 2/ 3;
+        margin: 0 auto;
+    }
+
     /*-----------------------Footer----------------------------------*/
     footer {
         display: grid;

@@ -229,6 +229,35 @@ section {
     border-radius: 10px;
 }
 
+/*------------------------------------Reservation----------------------------*/
+
+/*--------------------------------Services---------------------------------*/
+figure {
+    background-color: #dcdcdc;
+    padding: 1em;
+    margin: 1em;
+}
+
+figcaption a {
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+}
+
+figcaption a:hover {
+    text-decoration: underline;
+}
+
+#services-list, #amenities-list {
+    background-color: #90ee90;
+    margin: 1em;
+    padding: .5em;
+}
+
+#playroom, #pool {
+    margin: 1em;
+}
+
 /*---------------------------Footer-----------------------------*/
 footer {
     background-color: #dcdcdc;
